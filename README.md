@@ -22,7 +22,7 @@ Basically, the following steps are going to be done:
 7. Create and publish a pipeline
 8. Documentation
 
-![Project Main Steps](home/vagner/Documents/Udacity_MLengineer_Azure/course2/nd00333_AZMLND_C2/starter_files/stepsproject2.png)
+![Project Main Steps](stepsproject2.png)
 
 
 

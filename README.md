@@ -22,7 +22,7 @@ Basically, the following steps are going to be done:
 7. Create and publish a pipeline
 8. Documentation
 
-![Project Main Steps](stepsproject2.png)
+![Project Main Steps](./stepsproject2.png?raw=true)
 
 
 

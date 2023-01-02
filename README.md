@@ -1,8 +1,7 @@
-*NOTE:* This file is a template that you can use to create the README for your project. 
-The *TODO* comments below will highlight the information you should be sure to include.
 
+# *Project 2 of Machine Learning Engineering with Microsoft Azure Nanodegree*
 
-# Operationalizing Machine Learning: Project 2 of Machine Learning Engineering with Microsoft Azure Nanodegree
+# Operationalizing Machine Learning: 
 
 *TODO:* Write an overview to your project.
 
@@ -38,7 +37,7 @@ For example, one stage for managing models could be "using Automated ML to deter
 
 1. Authentication
 
-As I am using Udacity's lab, I am not required to create a secutiry principal (not allowed).
+As I am using Udacity's lab environment, I am not required to create a secutiry principal (not allowed).
 Just in the situation that the person is doing the assignments in your own account, you've got to do the following steps:
 
 - install *az* enable it in the terminal
@@ -52,16 +51,16 @@ Just in the situation that the person is doing the assignments in your own accou
 
 2. Automated ML Experiment
 
-Here, it is going to be created an AutoML experiment in Microsoft Azure, configuring a cluster and using this cluster to run the experiment.
+Here, it is going to be created an AutoML experiment in Microsoft Azure, configuring a compute cluster and using this cluster to run the experiment.
 
 
 3. Finding the Best Model
 
-
+Taking a look at the AutoML modeling output, in the *Details Tab*, one can find the model with the highest accuracy, which was considered as to be the best model.
 
 4. Deploy the Best Model
 
-After the best model is found, which is in the Details Tab, we selected the best model according to accuracy for deployment. 
+After the best model is found, which is in the *Details Tab*, we selected the best model according to accuracy for deployment. 
 
 
 5. Enable Logging
@@ -83,23 +82,99 @@ In this step, we will use *endpoint.py* provided to interact with the trained mo
 
 8. Create and publish a pipeline
 
+
 Use the notebook provided, named *aml-pipelines-with-automated-machine-learning-step.ipynb* to create, publish and consume a pipeline.
+
 
 9. Documentation
 
-After all the above steps, a screencast was recorded in order to show the process from model training using AutoML to completed model deployment.
+After all the above steps, a screencast was recorded in order to show the full process, ranging from model training using AutoML to completed model deployment.
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. 
 Remeber to include all the screenshots required to demonstrate key steps. 
 
+### STEP 1: NOT NECESSARY
+
+### STEP 2: AUTOMATED ML EXPERIMENT
+
+1. Screenshot shot of "Registered Datasets"
+
+
+
+
+2. Screenshot showing that the Auto ML experiment is completed
+
+
+3. Screenshot of the best model
+
+### STEP 4: ENABLE LOGGING
+
+4. Screenshot showing that "Application Insights" is enabled
+
+
+5. Screenshot showing logs by running the provided *logs.py* script
+
+
+### STEP 5: SWAGGER DOCUMENTATION
+
+
+6. Screenshot showing that swagger runs on localhost showing the HTTP API methods and responses for the model
+
+
+### STEP 6: CONSUME MODEL ENDPOINTS
+
+
+7. Screenshot showing that the *endpoint.py* script runs against the API producing JSON output from the model
+
+
+8. Screenshot showing that Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results
+
+
+### STEP 7: CREATE, PUBLISH AND CONSUME A PIPELINE
+
+
+9. Screenshot showing Pipeline section of AzureML studio, showing that the pipeline has been created
+
+
+
+10. Screenshot showing Pipelines section in AzureML studio, showing the Pipeline Endpoint
+
+
+
+11. Screenshot showing the Bankmarketing Dataset with the AutoML module
+
+
+
+12. Screenshot of "Published Pipeline Overview", showing a REST endpoint and a status of ACTIVE
+
+
+
+13. Screenshot of "Use RunDetails Widget" (Jupyter Notebook) showing the step runs
+
+
+
+14. Screenshot in ML Studio showing the scheduled run
+
+
+
+
+
+
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. 
-Remember that the screencast should demonstrate:
+
+The link to the screencast, summarizing all the steps provided in the project, is provided here.
+
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions 
 that you have attempted.
+
+In order to improve the outcome of this project, we could do:
+
+1. Run the AutoML experiment for longer times, for instance, one hour
+2. Try better (higher cost) compute clusters in order to perform a better AutoML experiment
+3. Block some models in the AutoML, as well enable deep learning models by using GPUs
 
 # MIT License
 

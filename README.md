@@ -3,12 +3,10 @@
 
 # Operationalizing Machine Learning: 
 
-*TODO:* Write an overview to your project.
-
 In this project, the Bank Marketing Data set [from here](https://archive.ics.uci.edu/ml/datasets/bank+marketing) will be used.
 Azure will be used to configure a cloud-based machine learning model, deploying it and consuming it. 
 A pipeline was created, published and consumed.
-Finally, a screencast showing all the steps is provided below.
+Finally, a link of a screencast showing all the steps is provided below.
 
 Basically, the following steps are going to be done:
 
@@ -22,18 +20,10 @@ Basically, the following steps are going to be done:
 8. Documentation
 
 
-
-
-
 ## Architectural Diagram
 
 ![Project Main Steps](./stepsproject2.png?raw=true)
 
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. 
-An architectural diagram is an image that helps visualize the flow of operations from start to finish. 
-In this case, it has to be related to the completed project, 
-with its various stages that are critical to the overall flow. 
-For example, one stage for managing models could be "using Automated ML to determine the best model". 
 
 1. Authentication
 
@@ -60,7 +50,7 @@ Taking a look at the AutoML modeling output, in the *Details Tab*, one can find 
 
 4. Deploy the Best Model
 
-After the best model is found, which is in the *Details Tab*, we selected the best model according to accuracy for deployment. 
+After the best model is found, which is in the *Details Tab*, we selected the best model according to accuracy criterion for deployment. 
 
 
 5. Enable Logging
@@ -70,7 +60,7 @@ Once that the best model is deployed, we are going to enable *Application Insigh
 
 6. Swagger documentation
 
-In this step, we are going to consume the best model, which was deployed, using *Swagger*.
+In this step, we are going to consume the best model, which was deployed using *Swagger*.
 
 
 
@@ -167,8 +157,6 @@ The link to the screencast, summarizing all the steps provided in the project, i
 
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions 
-that you have attempted.
 
 In order to improve the outcome of this project, we could do:
 

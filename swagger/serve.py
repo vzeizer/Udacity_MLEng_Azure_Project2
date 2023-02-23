@@ -37,6 +37,6 @@ if __name__ == "__main__":
     else:
 		# otherwise, it takes port's default value
 		# changed it to port 9000 because 8000 might be already occupied
-        port = 9000
+        port = 8000
 
     test(CORSRequestHandler, HTTPServer, port=port)

@@ -84,7 +84,13 @@ After all the above steps, a screencast was recorded in order to show the full p
 *TODO*: Write a short discription of the key steps. 
 Remeber to include all the screenshots required to demonstrate key steps. 
 
-### STEP 1: NOT NECESSARY
+### STEP 1: Logging and Authentication
+
+![Service Principal Created](./Udacity_spcreated.png?raw=true)
+
+
+![Workspace share](./Udacity_workspaceshare?raw=true)
+
 
 ### STEP 2: AUTOMATED ML EXPERIMENT
 
@@ -153,7 +159,8 @@ Remeber to include all the screenshots required to demonstrate key steps.
 
 ## Screen Recording
 
-The link to the screencast, summarizing all the steps provided in the project, is provided here.
+The link to the screencast, summarizing all the steps provided in the project, is provided [here](https://www.youtube.com/watch?v=PEGoYmDrc04).
+I apologize for noises in the audio, that is must be some issue with my laptop... but one can understand clearly what I've said.
 
 
 ## Standout Suggestions

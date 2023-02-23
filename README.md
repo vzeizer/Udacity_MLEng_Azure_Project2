@@ -89,27 +89,39 @@ Remeber to include all the screenshots required to demonstrate key steps.
 ![Service Principal Created](./Udacity_spcreated.png?raw=true)
 
 
-![Workspace share](./Udacity_workspaceshare?raw=true)
+![Workspace share](./Udacity_workspaceshare.png?raw=true)
 
 
 ### STEP 2: AUTOMATED ML EXPERIMENT
 
 1. Screenshot shot of "Registered Datasets"
 
+![Registered](./Udacity_dataregistered.png?raw=true)
 
 
 
 2. Screenshot showing that the Auto ML experiment is completed
 
 
+![AutoML completed](./Udacity_AutoMLcompleted.png?raw=true)
+
+
 3. Screenshot of the best model
+
+![Best Model](./Udacity_AutoMLBestModel.png?raw=true)
+
+
 
 ### STEP 4: ENABLE LOGGING
 
 4. Screenshot showing that "Application Insights" is enabled
 
+![application insights](./Udacity_enableinsights.png?raw=true)
+
 
 5. Screenshot showing logs by running the provided *logs.py* script
+
+![logs](./Udacity_logs.png?raw=true)
 
 
 ### STEP 5: SWAGGER DOCUMENTATION
@@ -117,11 +129,15 @@ Remeber to include all the screenshots required to demonstrate key steps.
 
 6. Screenshot showing that swagger runs on localhost showing the HTTP API methods and responses for the model
 
+![Swagger](./Udacity_swaggerruns.png?raw=true)
+
 
 ### STEP 6: CONSUME MODEL ENDPOINTS
 
 
 7. Screenshot showing that the *endpoint.py* script runs against the API producing JSON output from the model
+
+![endpoint](./Udacity_endpointresponse.png?raw=true)
 
 
 8. Screenshot showing that Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results
@@ -132,30 +148,34 @@ Remeber to include all the screenshots required to demonstrate key steps.
 
 9. Screenshot showing Pipeline section of AzureML studio, showing that the pipeline has been created
 
+![Pipeline created](./Udacity_pipelinecreated.png?raw=true)
 
 
 10. Screenshot showing Pipelines section in AzureML studio, showing the Pipeline Endpoint
 
+![Pipeline endpoint created](./Udacity_pipelineendpointcreated.png?raw=true)
 
 
 11. Screenshot showing the Bankmarketing Dataset with the AutoML module
 
+![bankmarketing automl](./Udacity_bankmarketingdataset.png?raw=true)
 
 
 12. Screenshot of "Published Pipeline Overview", showing a REST endpoint and a status of ACTIVE
 
+![Published Pipeline Overview](./Udacity_pipelinejoboverview.png?raw=true)
 
 
 13. Screenshot of "Use RunDetails Widget" (Jupyter Notebook) showing the step runs
 
+![Use RunDetails Widget](./Udacity_runwidgets1.png?raw=true)
 
 
 14. Screenshot in ML Studio showing the scheduled run
 
+![scheduled run](./Udacity_pipelinejobsfinal.png?raw=true)
 
-
-
-
+![jobs](./Udacity_JobsAllfinal.png?raw=true)
 
 ## Screen Recording
 
